@@ -15,18 +15,26 @@ h1,h2,h3,h4{
 
 header{
        background-color: #ffffff; }
+       .logo:focus {
+outline: none;
+       } 
 .logo,
 .logo-footer{
        font-family: Raleway,sans-serif;
        font-weight: 700;
        font-size: 26px;
        line-height: 30.52px;      }
+       
 .link{
        color: #212121; }
 .link:hover{
+     outline: none;
        color: #2196F3; }
 .link:focus{
-        color: #2196F3; }      
+       outline: none;
+      border-color: #ffffff;
+        color: #2196F3;
+      }      
 .menu-nav{
        font-family: Roboto;
        font-style: normal;
@@ -59,6 +67,7 @@ ul{
    
 .contacts:hover,
 .contacts:focus{
+       outline: none;
        color: #2196F3;
        fill:#2196F3;    }
 
@@ -145,8 +154,10 @@ ul{
            padding-bottom: 9px;
            padding-top: 9px;         }
 .aside:hover{
+       outline: none;
        color: #2196F3; }
 .aside:focus{
+       outline: none;
         color: #2196F3; }
 
   /*кнопки*/
@@ -167,9 +178,11 @@ ul{
         border-radius: 4px;
         background: #F5F4FA;   }
 .filter:hover{
+       outline: none;
         color: #ffffff;
         background: #2196F3; }
 .filter:focus{
+       outline: none;
         color: #ffffff;
         background: #2196F3; }
 
@@ -462,19 +475,24 @@ ul{
        /* **  goit-markup-hw-04   ** */ 
 
        /* <!--Особенности-->  */
-.ticket{
+.bbb{
        display: block;
        border: 1px solid #EEEEEE; }
 .ticket:nth-child(1n+1){        
        margin-right: auto;  }
-.ticket:hover,
-.ticket:focus{
-       background: #FFFFFF;
+
+
+.bbb:focus,
+.bbb:hover{
+       outline: none;
+        background: #FFFFFF;
        border: 1px solid #EEEEEE;
-       display: block;
+      display: block;
        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
-         1px 4px 6px rgba(0, 0, 0, 0.16);  }
+         1px 4px 6px rgba(0, 0, 0, 0.16);
+       }
+
 .vektor-antenna,
 .vektor-clock,
 .vektor-diagram,
@@ -501,6 +519,7 @@ ul{
          margin-right: 10px;     }
 .menu-nav-contacts .contacts:hover,
 .menu-nav-contacts .contacts:focus{
+       outline: none;
          color: var(--accent-color);           }         
 .email ,.phone{
          display: flex;     }
@@ -540,31 +559,39 @@ ul{
          fill: #AFB1B8;     }
 .instagram:hover,
 .instagram:focus{
+       outline: none;
        fill: #ffffff;
        background-color: var(--accent-color);   }
 .twitter:hover,
 .twitter:focus{
+       outline: none;
        fill: #ffffff;
        background-color: var(--accent-color);  }
 .facebook:hover,
 .facebook:focus{
+       outline: none;
        fill: #ffffff;
        background-color: var(--accent-color);   }
 .linkedin:hover,
 .linkedin:focus{
+       outline: none;
        fill: #ffffff;
        background-color: var(--accent-color);   }
 .instagram:hover,
 .instagram:focus{
+       outline: none;
        background:  #2196F3;   }
 .twitter:hover,
 .twitter:focus{
+       outline: none;
        background:  #2196F3;   }
 .facebook:hover,
 .facebook:focus{
+       outline: none;
        background:  #2196F3;   }
 .linkedin:hover,
 .linkedin:focus{
+       outline: none;
        background:  #2196F3;   }
 
       /* клиент  */
@@ -587,6 +614,7 @@ ul{
        width: 1200px;
        height: auto;
        margin: 0px auto;
+       padding-top: 94px;
        padding-bottom: 97px;    } 
 .indent:not(:last-child){
        margin-right: 30px;   }
@@ -599,11 +627,12 @@ ul{
        letter-spacing: 0.03em;
        width: 1200px;
        height: auto;
-       padding-top: 94px;
+      
        padding-bottom: 50px;
        text-decoration-color: #212121;   }
 .link-client:hover,
 .link-client:focus{ 
+       outline: none;
        color: var(--accent-color); 
        border-color: 1px solid var(--accent-color);
        fill: var(--accent-color);  }
@@ -628,15 +657,19 @@ ul{
          fill: #ffffff;     }
 .instagram-connexion:hover,
 .instagram-connexion:focus{
+       outline: none;
          background:  #2196F3;   }
 .twitter-connexion:hover,
 .twitter-connexion:focus{
+       outline: none;
          background:  #2196F3;   }
 .facebook-connexion:hover,
 .facebook-connexion:focus{
+       outline: none;
          background:  #2196F3;   }
 .linkedin-connexion:hover,
 .linkedin-connexion:focus{
+       outline: none;
          background:  #2196F3;   }
    /* copy */
 .basement {
