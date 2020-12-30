@@ -1,6 +1,6 @@
 body {
        background: #ffffff;
-       font-family: Roboto sans-serif;
+       
        font-style: normal;
        line-height: normal;
        border: none;
@@ -175,10 +175,7 @@ ul{
 
   /*портфолио*/
 
-.content{
-        background: #FFFFFF;
-        border: 1px solid #EEEEEE;
-        box-sizing: border-box;  }
+
 .title{
         font-weight: 700;
         font-size: 18px;
@@ -217,8 +214,7 @@ ul{
        display: flex;
        align-items: center;      }        
 .header>.container{
-       display: flex;
-       align-items: center;  } 
+       display: flex;  } 
 .logo{
        margin-right: 53px; }
 .navigation{
@@ -232,7 +228,7 @@ ul{
        margin-right: 50px;  }
 .menu-nav-contacts{   
        display: flex;
-       align-items: center;
+
        margin-left: auto;
        margin-right: -50px;  }
 .contacts:last-child{
@@ -241,8 +237,8 @@ ul{
 /* Шапка */
 
 .helmet{ 
-       max-width: 1600px; 
-       display: flex;
+       max-width: 1600px;
+
        background-position: center;
        background: linear-gradient( 
               to right, rgba(47, 48, 58, 0.4), 
@@ -253,8 +249,7 @@ ul{
        padding-top: 200px;
        padding-bottom: 200px;    }
 .heading{
-       display: flex;
-       align-items: center;
+
        width: 616px;
        height: auto;
        margin: 0px auto;
@@ -318,9 +313,8 @@ ul{
 
 /* чем мы занимаемся */
 
-.subtitle{ 
-       width: 400px;
-       display: flex;
+.subtitle{
+
        flex-direction: column;
        width: 380px;
        height: auto;
@@ -342,8 +336,7 @@ ul{
        background: #F5F4FA;
        padding-bottom: 94px;
        padding-top: 94px;
-       padding-left: auto;
-       padding-right: auto;   }
+         }
 .commercial:not(:box-sizing){
        display: flex;
        align-items: center;     
@@ -434,17 +427,9 @@ ul{
 
 /* кнопка */
 
-.border{
-       background: #ffffff;
-       border: 1px solid #EEEEEE;
-       box-sizing: border-box;       }
-.content-Macbook,
-.content-ball,
-.content-ears,
-.content-boxes,
-.content-book,
-.content-tag{         
-       margin-right: 27px;  }
+
+
+
 .coloring{
        padding-bottom: 79px;
        padding-top: 94px;  }
@@ -456,7 +441,7 @@ ul{
        padding-bottom: 50px; 
        padding-left: 240px;
        padding-right: 240px;     } 
- .filter{
+.filter{
        padding: 6px 22px;
        width: auto;
        height: 38px;
@@ -466,16 +451,8 @@ ul{
        height: 1300px;
        display: flex;
        flex-wrap: wrap;     }
-.content-Macbook
-.content-ball
-.content-Seafood
-.content-ears
-.content-boxes
-.content-computer
-.content-book
-.content-tag
-.content-notebook{ 
-         width: 370px;
+.ticket{ 
+         width: auto;
          height: 404px;        }
 .internal-block{     
          padding:20px 24px;  } 
@@ -485,10 +462,19 @@ ul{
        /* **  goit-markup-hw-04   ** */ 
 
        /* <!--Особенности-->  */
-
-.border:hover,
-.border:focus{
-         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));  }
+.ticket{
+       display: block;
+       border: 1px solid #EEEEEE; }
+.ticket:nth-child(1n+1){        
+       margin-right: auto;  }
+.ticket:hover,
+.ticket:focus{
+       background: #FFFFFF;
+       border: 1px solid #EEEEEE;
+       display: block;
+       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+         1px 4px 6px rgba(0, 0, 0, 0.16);  }
 .vektor-antenna,
 .vektor-clock,
 .vektor-diagram,
@@ -497,7 +483,8 @@ ul{
          background: #F5F4FA;
          background-position: center;
          background-repeat: no-repeat;
-         border-radius: 4px;      background-size: 70px 70px;      }
+         border-radius: 4px;      
+         background-size: 70px 70px;      }
 .vektor-antenna{
          background-image: url(../svg/antenna\ 1.svg);     }
 .vektor-clock{  
@@ -509,18 +496,14 @@ ul{
           /* верхняя линия */
 
 .contacts{
-                 fill: #757575;         }
+         fill: #757575;         }
 .link-mailto ,.link-tel{      
          margin-right: 10px;     }
 .menu-nav-contacts .contacts:hover,
 .menu-nav-contacts .contacts:focus{
          color: var(--accent-color);           }         
-.email{
-         display: flex;
-         align-items: center;        }
-.phone{
-         display: flex;
-         align-items: center;        }
+.email ,.phone{
+         display: flex;     }
 
          /* наша команда */
 
@@ -536,7 +519,9 @@ ul{
           align-items: center; 
           justify-content: center;         }
 .link-instagram,.link-twitter,
-.link-facebook,.link-linkedin{     
+.link-facebook,.link-linkedin{
+          width: 20px;
+          height: 20px;  
           border: 0px;
           padding: 0px;           }
 .instagram,
@@ -585,9 +570,9 @@ ul{
       /* клиент  */
 
 .client{
-      display: flex;
-      align-items: center;
-      justify-content: center;         } 
+       display: flex;
+       align-items: center;
+       justify-content: center;         } 
 .link-client{ 
        display: flex;
        align-items: center;
@@ -606,8 +591,7 @@ ul{
 .indent:not(:last-child){
        margin-right: 30px;   }
 .figure-client{
-       font-family: Roboto;
-       font-style: normal;
+
        font-weight: bold;
        font-size: 36px;
        line-height: 42px;
@@ -627,7 +611,34 @@ ul{
        --accent-color: #2196F3;     }
   
     /* подвал */
-
+.instagram-connexion,
+.twitter-connexion,
+.facebook-connexion,
+.linkedin-connexion:not(:last-child){
+         margin-right: 10px; }
+.instagram-connexion,.twitter-connexion,
+.facebook-connexion,.linkedin-connexion{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         border-radius: 50%;
+         width: 44px;
+         height: 44px;
+         background: rgba(255, 255, 255, 0.1);   
+         fill: #ffffff;     }
+.instagram-connexion:hover,
+.instagram-connexion:focus{
+         background:  #2196F3;   }
+.twitter-connexion:hover,
+.twitter-connexion:focus{
+         background:  #2196F3;   }
+.facebook-connexion:hover,
+.facebook-connexion:focus{
+         background:  #2196F3;   }
+.linkedin-connexion:hover,
+.linkedin-connexion:focus{
+         background:  #2196F3;   }
+   /* copy */
 .basement {
        width: 231px;
        height: 81px;
