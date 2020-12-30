@@ -475,15 +475,15 @@ ul{
        /* **  goit-markup-hw-04   ** */ 
 
        /* <!--Особенности-->  */
-.bbb{
+.ghost{
        display: block;
        border: 1px solid #EEEEEE; }
 .ticket:nth-child(1n+1){        
        margin-right: auto;  }
 
 
-.bbb:focus,
-.bbb:hover{
+.ghost:focus,
+.ghost:hover{
        outline: none;
         background: #FFFFFF;
        border: 1px solid #EEEEEE;
